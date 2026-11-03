@@ -1,0 +1,23 @@
+# Python virtual environment
+.venv/
+
+# Airflow local state
+.airflow/
+airflow.db
+airflow.cfg
+logs/
+
+# Local database
+data/*.db
+
+# Secrets
+.env
+.env.*
+
+# Python cache
+__pycache__/
+*.pyc
+
+# IDE
+.vscode/
+.idea/
